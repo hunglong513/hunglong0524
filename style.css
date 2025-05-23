@@ -47,32 +47,71 @@ table {
 	border-spacing: 0;
 }
 
-.header{
+.container{
 	width: 1920px;
-	height: 730px;
-	border:1px solid blue;	
+	height: 2496px;	
+}
+.ul{
+	display:flex;
+	flex-wrap: wrap;		
+	margin: 0 auto;
+	padding-left: 300px;
+	padding-right: 300px;	
+	
+	
 }
 
-.liUp{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 1920px;
-	height: 90px;
-	font-size:28px;	
-	border: 1px solid red;
-
+.ul li{
+	
+	width: 416px;
+	height: 476px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 12px;
+	padding-left: 12px;
 }
 
-.liUp .liUph31{
-	width: 56px;
-	height: 42px;
-	text-decoration: none;
+.ul li img{
+	width: 416px;
+	height: 200px;
+	padding-bottom: 16px;
 }
 
-.liUp .liUph32{
-	width: 84px;
-	height: 42px;
-	text-decoration: none;
-	padding-left: 40px;
+.ul li time{
+	width: 86px;
+	font-size:24px;
+}
+
+.ul li h3{	
+	font-size 36px;
+	color:blue;
+}
+
+.ul li h2{
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+.ul li p{
+	font-size: 16px;
+	line-height: 150%;
+	padding-bottom: 16px;
+}
+
+.ul li a{
+	width: 96px;
+	height: 40px;
+	font-size: 16px;
+	border:1px solid black;
+	border-radius: 40px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.ul li a:hover{
+	background:green;
+	color:#fff;
 }
